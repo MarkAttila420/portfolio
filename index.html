@@ -1,13 +1,350 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Portfolio | György Márk Attila</title>
+    <link href="/output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-3x1 font-bold">
-        Hello World!</h1>
+
+<body class="bg-gray-100">
+    <header>
+    </header>
+
+    <main>
+
+        <section id="hero" class="h-screen flex items-center">
+            <div class="text-left ml-[25%]">
+                <h1 class="text-6xl font-bold mb-4">György Márk Attila</h1>
+                <p class="text-2xl">Szoftverfejlesztő</p>
+            </div>
+        </section>
+
+        <section id="about" class="min-h-screen flex-col items-center">
+
+            <div class="text-center">
+                <h2 class="text-4xl font-semibold">Rólam</h2>
+                <p class="text-center mx-auto max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque eum magni nobis tempore qui nesciunt perferendis,
+                    adipisci sit deserunt impedit, facilis aliquam animi
+                    perspiciatis voluptatem voluptates! Beatae repellat totam et!</p>
+            </div>
+
+            <div class="mt-6 flex space-x-4 justify-center">
+
+                <a href="/cv.pdf" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700">
+                    Önéletrajz
+                </a>
+
+                <a href="#portfolio"
+                    class="bg-gray-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800">
+                    Projektek
+                </a>
+            </div>
+
+            <div class="flex items-center space-x-6 justify-center m-8">
+                <div
+                    class="bg-white flex flex-col justify-between p-4 rounded-lg shadow-md w-64 h-38 transition-transform hover:scale-105">
+
+                    <div class="flex justify-between space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-12 w-12 mb-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+                        </svg>
+
+                        <p class="text-4xl font-bold">4</p>
+                    </div>
+
+                    <div class="flex-col">
+                        <p class="text-1xl font-bold text-left text-gray-600">Projekt</p>
+                        <p class="text-sm text-left text-gray-400">Külöböző technológiák és nyelvek használatával</p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white flex flex-col justify-between p-4 rounded-lg shadow-md w-64 h-38 transition-transform hover:scale-105">
+
+                    <div class="flex justify-between space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-12 w-12 mb-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+                        <p class="text-4xl font-bold">2</p>
+                    </div>
+
+                    <div class="flex-col">
+                        <p class="text-1xl font-bold text-left text-gray-600">Képesítések</p>
+                        <p class="text-sm text-left text-gray-400">Szakmai tudást igazoló dokumentumok</p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white flex flex-col justify-between p-4 rounded-lg shadow-md w-64 h-38 transition-transform hover:scale-105">
+
+                    <div class="flex justify-between space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-12 w-12 mb-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                        </svg>
+                        <p class="text-4xl font-bold">20</p>
+                    </div>
+
+                    <div class="flex-col">
+                        <p class="text-1xl font-bold text-left text-gray-600">Technológiák</p>
+                        <p class="text-sm text-left text-gray-400">Eszközök, programnyelvek és keretrendszerek</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio" class="min-h-screen py-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-semibold">Portfólió</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto mt-2">
+                    Nézz körül a projektjeim, képesítéseim és az általam használt technológiák között.
+                </p>
+            </div>
+
+            <div class="flex justify-center space-x-4 mb-12">
+                <button class="px-6 py-2 rounded-lg font-semibold bg-blue-600 text-white">
+                    Projektek
+                </button>
+                <button class="px-6 py-2 rounded-lg font-semibold bg-gray-200 text-gray-700 hover:bg-gray-300">
+                    Képesítések
+                </button>
+                <button class="px-6 py-2 rounded-lg font-semibold bg-gray-200 text-gray-700 hover:bg-gray-300">
+                    Technológiák
+                </button>
+            </div>
+
+            <div id="projects-content"
+                class="max-w-6xl mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+
+                    <div class="h-48 bg-gray-300">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold mb-2">Projekt Neve</h3>
+                        <p class="text-gray-600 mb-4">
+                            A projekt rövid leírása, hogy mit csinál és milyen technológiákat használt.
+                        </p>
+
+                        <div class="flex space-x-4">
+
+                            <a href="#"
+                                class="bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-800">
+                                GitHub
+                            </a>
+
+                            <a href="details.html"
+                                class="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-blue-700">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+
+                    <div class="h-48 bg-gray-300">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold mb-2">Projekt Neve</h3>
+                        <p class="text-gray-600 mb-4">
+                            A projekt rövid leírása, hogy mit csinál és milyen technológiákat használt.
+                        </p>
+
+                        <div class="flex space-x-4">
+
+                            <a href="#"
+                                class="bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-800">
+                                GitHub
+                            </a>
+
+                            <a href="details.html"
+                                class="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-blue-700">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+
+                    <div class="h-48 bg-gray-300">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold mb-2">Projekt Neve</h3>
+                        <p class="text-gray-600 mb-4">
+                            A projekt rövid leírása, hogy mit csinál és milyen technológiákat használt.
+                        </p>
+
+                        <div class="flex space-x-4">
+
+                            <a href="#"
+                                class="bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-800">
+                                GitHub
+                            </a>
+
+                            <a href="details.html"
+                                class="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-blue-700">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+
+                    <div class="h-48 bg-gray-300">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold mb-2">Projekt Neve</h3>
+                        <p class="text-gray-600 mb-4">
+                            A projekt rövid leírása, hogy mit csinál és milyen technológiákat használt.
+                        </p>
+
+                        <div class="flex space-x-4">
+
+                            <a href="#"
+                                class="bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-800">
+                                GitHub
+                            </a>
+
+                            <a href="details.html"
+                                class="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-blue-700">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="min-h-screen py-12">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-semibold">Kapcsolat</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto mt-2">
+                    Keress meg bátran! Az alábbi elérhetőségek valamelyikén keress meg.
+                </p>
+            </div>
+
+            <div class="max-w-2xl mx-auto grid grid-cols-1 gap-4 p-4">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <form>
+                        <div class="mb-4">
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-gray-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                    </svg>
+                                </span>
+                                <input type="text" id="name" name="name" placeholder="Név"
+                                    class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-gray-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                    </svg>
+
+                                </span>
+                                <input type="email" id="email" name="email" placeholder="E-mail"
+                                    class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-start pt-2.5 pl-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-gray-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                                    </svg>
+                                </span>
+                                <textarea id="message" name="message" placeholder="Üzenet"
+                                    class="w-full pl-10 pr-4 pt-2 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 min-h-[150px]"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit"
+                                class="w-full flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-5 w-5 mr-2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                                </svg>
+
+                                <span>Üzenet küldése</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="space-y-4">
+
+                    <a href="http://www.linkedin.com/in/györgy-márk-attila-309875246" target="_blank"
+                        class="flex items-center bg-white p-4 rounded-lg shadow-md hover:bg-gray-50 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            class="h-8 w-8 mr-4 fill-blue-700" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                        <div>
+                            <p class="font-semibold text-lg text-gray-800">LinkedIn</p>
+                            <p class="text-sm text-gray-500">Kapcsolatfelvétel</p>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/MarkAttila420" target="_blank"
+                        class="flex items-center bg-white p-4 rounded-lg shadow-md hover:bg-gray-50 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            class="h-8 w-8 mr-4 fill-gray-900" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                        <div>
+                            <p class="font-semibold text-lg text-gray-800">GitHub</p>
+                            <p class="text-sm text-gray-500">@MarkAttila420</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-sm">
+                &copy; 2025 - Minden jog fenntartva.
+            </p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
